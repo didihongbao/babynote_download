@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>有红包 | 红包大全</title>
+  <link rel="stylesheet" href="css/base.min.css">
+  <link rel="stylesheet" href="css/weixin.css">
+  <style>
+
+.bottom-Center {
+  float:right;
+  margin: 20px;
+}
+
+.float_div{
+width: 300px;
+height: 250px;
+position:absolute;
+float:right;
+z-index:100;
+right:0;/*   定位到右上   */
+top:0;
+}
+
+.center{width: 150px;margin-left: 100px; position:absolute;top:50%;margin-top:40px}
+.logo{width: 150px; margin: 10px}
+
+</style>
+</head>
+<body>
+  <div>
+    <img src="img/logo_lg.jpg" alt="Big Logo Pic">
+    <img class="bottom-Center" src="img/slogan.png">
+  </div>
+
+  <div class="float_div">
+      <div class="center">
+      <img class="logo" src="img/logo.png" alt="Slogan Pic">
+      <a class="ui-btn ui-btn-default ui-btn-block ui-btn-download" id="app-download-btn">下载应用</a>
+      </div>
+  </div>
+
+  <div class="wx-overlay">
+    <img src="img/arrow-up.png">
+    <div>请在浏览器里打开</div>
+  </div>
+  <script src="js/definitions.js"></script>
+  <script src="js/device_detect.js"></script>
+</body>
+</html>
