@@ -14,34 +14,41 @@
 }
 
 .main{
-width:300px;
+width:100%;
 margin-top:0px;
 padding:10px;
 position:relative; 
 }
 .float_div{
 position:absolute;
-width:200px;
+width:150px;
 height:300px;
 right:0px;
 top:0px;
 z-index:100; 
 }
+ 
+ .img_ds{
+ width: 320px
+ }
 
-.center{width: 150px; position:absolute;top:20%;margin-top:50px}
-.logo{width: 150px; margin: 10px}
+ .img_logo{
+ width: 120px;margin: 10px
+ }
+
+.center{width: 120px; position:absolute;top:20%;margin-top:50px}
 
 </style>
 </head>
 <body>
   <div class="main">
-    <img src="img/logo_lg.jpg" alt="Big Logo Pic">
+    <img  class="img_ds" src="img/logo_lg.jpg" alt="Big Logo Pic">
     <img class="bottom-Center" src="img/slogan.png">
   </div>
 
   <div class="float_div">
       <div class="center">
-      <img class="logo" src="img/logo.png" alt="Slogan Pic">
+      <img class="img_logo" src="img/logo.png" alt="Slogan Pic">
       <a class="ui-btn ui-btn-default ui-btn-block ui-btn-download" id="app-download-btn">下载应用</a>
       </div>
   </div>
