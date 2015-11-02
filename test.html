@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>CSS Borders DIV大图片右上角叠加小图片</title>
+<meta name="author" content="Geovin Du 涂聚文"/>
+<style>
+.main{
+width:400px;
+margin-left:auto;
+margin-right:auto;
+margin-top:100px;
+padding:10px;
+border:1px solid green;
+position:relative; 
+}
+.float_div{
+position:absolute;
+width:10px;
+height:10px;
+border:1px solid red;
+right:0px;
+top:0px;
+z-index:100; 
+}
+p{ 
+text-indent: 2em;font-size:12px;line-height:25px;
+}
+</style>
+<div class="main">
+<p>该小区一栋楼的三楼，一处早已搬空的房间里散落着许多“艾滋病拆迁工程办公室”打印纸（12月26日摄）。 新华社记者 张兴军 摄</p>
+<p>新华网郑州12月28日电 （记者张兴军 刘金辉）河南南阳一违法建设项目竟雇佣艾滋病人拆迁，目前5名主要嫌疑人已被控制，多名官员被处分。然而，荒唐“闹剧”并没有“闭幕”：记者意外获取的一份企业“春节发放福利人员名单”显示，除了公司员工外，卧龙区相关街道办事处、区征收办数十名党政干部赫然在列。</p>
+<p>卷入“艾滋病拆迁队”漩涡的是一个名为“亿安·天下城”的房地产项目，地处卧龙区梅溪街道办事处辖区。据记者调查，涉事房地产开发项目仅有项目规划许可证，土地使用、用地规划乃至施工许可等相关手续缺失。南阳市政府通报称，亿安房地产公司为加快项目拆迁进程，雇佣社会人员刘某某组成所谓拆迁办公室，之后刘某某找人组织6名艾滋病患者组成“艾滋病拆迁队”，以此恐吓、骚扰尚未签署拆迁协议的居民尽早搬迁。</p>
+
+<div class="float_div"></div>
+
+</div>
+</html>
